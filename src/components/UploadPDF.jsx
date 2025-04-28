@@ -2,7 +2,8 @@ import { useState, useRef } from "react";
 import "./UploadPDF.css";
 import html2pdf from "html2pdf.js";
 import ReactMarkdown from 'react-markdown';
-import tituloRepublica from 'C:/Users/Cesar/react_projeto/src/components/imagens/titulo_republica_brasil.png';
+import tituloRepublica from './imagens/titulo_republica_brasil.png';
+
 
 export default function UploadPDF() {
   const [file, setFile] = useState(null);
