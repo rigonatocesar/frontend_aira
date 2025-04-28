@@ -1,0 +1,35 @@
+.infraction-box {
+  background-color: #fff;
+  border: 2px solid #999;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 700px;
+  margin: 20px auto;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.infraction-box h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 10px;
+}
+
+.infraction-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  gap: 15px;
+}
+
+.infraction-row div {
+  flex: 1;
+}
+
+.infraction-row p, .infraction-section p {
+  margin: 4px 0 0 0;
+}
+
+.infraction-section {
+  margin-top: 20px;
+}

@@ -1,0 +1,16 @@
+# Arquivos e pastas que não quero no GitHub
+
+*.pdf
+*.zip
+*.rar
+*.exe
+*.pyc
+*.log
+__pycache__/
+uploads/
+fichas_mbft_pdf/
+fichas_mbft/
+site/
+*.db
+*.sqlite
+Rigonato_Chave_IA_ChatGPT.txt
