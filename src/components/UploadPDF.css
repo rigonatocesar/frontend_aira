@@ -290,18 +290,26 @@
 
 .popup-mensagem {
   position: fixed;
-  top: 1rem;
-  right: 1rem;
-  background-color: #4ade80; /* verde sucesso */
-  color: #064e3b;
-  padding: 1rem 1.5rem;
+  top: 20px;
+  right: 20px;
+  padding: 1rem 2rem;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: white;
   z-index: 9999;
-  animation: fadeInOut 5s ease-in-out forwards;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  animation: fadeInOut 4s ease forwards;
 }
+
+.popup-mensagem.sucesso {
+  background-color: #4caf50; /* verde */
+}
+
+.popup-mensagem.erro {
+  background-color: #f44336; /* vermelho */
+}
+
 
 @keyframes fadeInOut {
   0%   { opacity: 0; transform: translateY(-20px); }
