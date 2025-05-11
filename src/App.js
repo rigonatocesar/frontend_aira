@@ -8,7 +8,7 @@ function App() {
   return started ? (
     <UploadPDF onReturn={() => setStarted(false)} />
   ) : (
-    <UploadPDF onStart={() => setStarted(true)} />
+    <LandingPage onStart={() => setStarted(true)} />
   );
 }
 
